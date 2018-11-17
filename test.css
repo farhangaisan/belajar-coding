@@ -1,27 +1,85 @@
-.judul {
-    color: #c24141;
+.title {
+    color: #8b8b8b;
     margin: 2px;    
 }
-
-.profil {
-    overflow: hidden;
-    background-color :#e9e9e9;
-}
-
-.gambar {
-    width: 380px;
-    height: 308px;
-    border: 20px solid #fff;
-}
-
-.dalamgambar {
-    width: 425px;
-    float: left;
-    position: relative;
-    padding: 15px 2px 15px 15px;
-    margin-left: 8px;
-}
-.tombol1{
-    background-color: #c24141;
+.lesson{
+    color: #8b8b8b;
+    text-align: center;
+    width: auto;
 }
     
+.latar{
+    background-image: url("motor.jpg");
+    background-color: #d4cbcb;
+}
+form {
+    border: 3px solid #f1f1f1;
+    font-family: arial;
+    width: 500px;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label{
+	color: #049372;
+	text-transform: uppercase;
+}
+button {
+    background-color: #049372;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f03434;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+span{
+	color:#50626C;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
